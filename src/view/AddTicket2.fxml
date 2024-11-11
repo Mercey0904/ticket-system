@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="262.0" prefWidth="527.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.controller.TicketTransactionController2">
+   <children>
+      <Label layoutX="26.0" layoutY="55.0" text="Ticket Transaction (Part 2)" textFill="#1c2cb9">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="93.0" prefHeight="23.0" prefWidth="476.0" text="Please enther each member's phone number into the textbox below">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="135.0" text="Member's Phone Number :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="phoneNum" layoutX="214.0" layoutY="132.0" />
+      <Button layoutX="417.0" layoutY="196.0" mnemonicParsing="false" onAction="#next" text="Continue" />
+      <Button layoutX="392.0" layoutY="132.0" mnemonicParsing="false" onAction="#check" text="Check" />
+   </children>
+</AnchorPane>
